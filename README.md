@@ -1,6 +1,6 @@
 <h3>Dotfiles</h3>
 <ul>
-	<li>Managed using stow</li>
+	<li>Managed using Stow</li>
 </ul>
 
 Run this:
