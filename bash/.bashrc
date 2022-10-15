@@ -10,6 +10,7 @@ PS1='[\u@\h \W]\$ '
 
 alias logout='pkill -KILL -u home'
 alias shutdown='shutdown -h now'
+alias mg='firefox --private-window https://github.com/raoalinawaz-cys'
 echo "-------------------------------------------------------------"
 echo "	       		  Root x ran             		   "
 echo "-------------------------------------------------------------"
