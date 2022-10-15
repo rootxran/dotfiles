@@ -187,6 +187,7 @@ bar {
 }
 exec xrandr -s 1920x1080
 
-exec --no-startup-id i3-msg 'workspace 1; exec i3-sensible-terminal'
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/firefox --private-window https://priv.au/'
+exec restart
+exec --no-startup-id i3-msg 'workspace 1; exec i3-sensible-terminal'
 exec restart
