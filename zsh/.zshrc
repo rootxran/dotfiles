@@ -103,4 +103,5 @@ alias vi=vim
 alias logout='pkill -PKILL -u home'
 alias shutdown='shutdown -h now'
 alias mg='firefox --private-window https://github.com/raoalinawaz-cys'
-alias pl="""pacman -Qei | awk '/^Name/ { name=$3 } /^Groups/ { if (1) { print name } }'"""
+np=$(pacman -Qei | awk '/^Name/ { name=$3 } /^Groups/ { if ( $3 != "base" && $3 != "base-devel" ) { print name } }')
+alias pl='echo $np'
