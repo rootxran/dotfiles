@@ -6,6 +6,6 @@
 Run this:
 
 ```sh
-git clone https://github.com/raoalinawaz-cys/dotfiles.git ~/.dotfiles
+git clone https://github.com/rootxran/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ```
